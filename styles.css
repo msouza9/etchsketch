@@ -1,0 +1,27 @@
+/* CSS style sheet */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#grid div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+input {
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+}
+
+#grid {
+    height: 500px;
+    width: 500px;
+    padding-top: 25px;
+    margin: auto;
+}
